@@ -1,0 +1,16 @@
+app:
+  datasource:
+    main:
+      driver-class-name: org.postgresql.Driver
+      jdbc-url: jdbc:postgresql://localhost:5432/springjdbctemplate
+      password: 'password'
+      pool-size: 30
+      username: springjdbctemplate
+
+server:
+  port: 8090
+  error:
+    include-binding-errors: always
+    include-message: always
+
+
